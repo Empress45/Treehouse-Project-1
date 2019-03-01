@@ -1,5 +1,4 @@
-/* Global Layout Set-up */
-* {
+ {
   box-sizing: border-box;
 }
 
@@ -167,12 +166,10 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
-/* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: -ms-flexbox;
       display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
