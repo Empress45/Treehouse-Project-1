@@ -1,14 +1,15 @@
- { 
+/* Global Layout Set-Up */
+ {
   box-sizing: border-box;
 }
-  
+
 body {
-  margin: 0;
+  margin: 5;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  font-family: 'italic;
+  color: black;
+  background-color: white;
 }
 /* Link Styles */
 
@@ -24,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: white;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -42,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: grey;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -56,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/mysecondbornson.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,23 +70,25 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  border:  3px;  thick black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #black;
+  color: tan;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
-} 
+  border: 3px solid white;
+}
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -107,12 +110,12 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 10px;
   display: inline-block;
   background: #ff9904;
   color: white;
   padding: 5px 10px;
-  margin: 2px;
+  margin: 3px;
 }
 
 .skills li:nth-child(odd) {
@@ -165,12 +168,11 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
 @media screen and (min-width: 720px) {
-  
+
   .flex {
-      display: -ms-flexbox;    
-      display: flex; 
+      display: -ms-flexbox;
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -201,5 +203,14 @@ a.social:hover {
     margin: 40px auto;
   }
 
+.card-title {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
+.goals-card {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+}
