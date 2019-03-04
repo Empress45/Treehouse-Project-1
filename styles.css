@@ -4,11 +4,11 @@
 }
 
 body {
-  margin: 5;
+  margin: 0;
   padding: 0;
   text-align: center;
   font-family: italic;
-  color: black;
+  color: tan;
   background-color: white;
 }
 /* Link Styles */
@@ -71,14 +71,14 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-  border:  3px;  thick black;
+  border:  3px; solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #black;
+  background-color: black;
   color: tan;
   padding: 10px;
   border-radius: 10px;

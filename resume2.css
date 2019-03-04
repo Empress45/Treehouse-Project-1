@@ -8,10 +8,22 @@ body {
 }
 
 h1 {
-  background-color: #e2e2e2;
+  background-color: grey;
   padding: 5px;
 }
 
 .section-title {
   text-transform: uppercase;
+  color: tan;
+}
+h1 {
+  color: tan;
+}
+
+.main-heading {
+  color: tan;
+}
+
+.list {
+  color: tan;
 }
